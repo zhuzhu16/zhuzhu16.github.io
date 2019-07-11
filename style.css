@@ -27,8 +27,7 @@ header {
 .slide {
     height: 75vh;
     background-color:rgb(255, 218, 224);
-    border:1px
-    solid #ffffff;
+    border:1px solid #ffffff;
     margin:10px;
     padding:20px;
     display:flex;
@@ -42,7 +41,7 @@ div h1 {
 
 #about {
     background-color:rgb(233, 240, 145);
-    justify-content: none;  /* you can also use: space-between or flex-start*/
+    justify-content: flex-start;  /* you can also use: space-between or flex-start*/
 }
 
 #my-profile-pic {
@@ -52,10 +51,12 @@ div h1 {
     background-position: 60% 50%;
     height:100%;
     width:40%;
+    min-width: 200px;
 }
 
 #my-profile-details {
     width: 60%;
+    margin: 50px;
 
 }
 
@@ -74,4 +75,9 @@ div h1 {
     float:right;
     font-style: italic;
     font-weight: 400;
+}
+
+#text {
+    margin:40px;
+    
 }
